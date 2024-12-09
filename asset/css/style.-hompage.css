@@ -1,0 +1,1073 @@
+body {
+  background-color: #000000;
+}
+
+/*================NAVBAR DAN SLIDE=========================*/
+
+.navbar {
+  background-color: rgb(22, 22, 22);
+  border-bottom: 1px solid rgb(56, 56, 56);
+}
+
+.nav-item {
+  margin-left: 10%;
+}
+
+.nav-text:hover {
+  color: #fc5185;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fc5185 !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item img {
+  filter: drop-shadow(7px 7px 2px #fc5185);
+}
+
+.nav-item img:hover {
+  filter: drop-shadow(7px 7px 2px #fc5185);
+  transition: 0.5s;
+}
+
+.nav-text {
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: rgb(30, 30, 30);
+}
+
+.form-control {
+  width: 100%;
+  height: 30px;
+  margin-top: 6px;
+}
+
+.d-flex {
+  width: 100%;
+  padding: 1.2%;
+}
+
+.btn-search {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid white;
+  height: 30px;
+  margin-top: 6px;
+  align-items: center;
+  padding: 0px;
+}
+
+.search-text {
+  padding: 2px 7px 2px 7px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.navbar-toggler {
+  border-color: none;
+}
+.navbar-nav {
+  gap: 10%;
+  align-items: end;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/*==================Banner SLider===============================*/
+
+.flex-container {
+  display: flex;
+  background-color: #000000;
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  position: relative;
+}
+
+.flex-item {
+  flex: 0 0 auto;
+  padding: 1% 4% 2% 4%;
+  border: 1px solid #000;
+  border-bottom: 1px solid rgb(114, 113, 113);
+  object-fit: cover;
+  width: 60%;
+  animation: slider 50s linear infinite;
+}
+
+/* Animation */
+@keyframes slider {
+  /* Gambar 1 (diam) */
+  0%,
+  4% {
+    transform: translateX(0);
+  }
+  /* Gambar 2 (geser ke kiri, diam) */
+  6%,
+  16% {
+    transform: translateX(-100%);
+  }
+  /* Gambar 3 (geser ke kiri, diam) */
+  18%,
+  28% {
+    transform: translateX(-200%);
+  }
+  /* Gambar 4 (geser ke kiri, diam) */
+  30%,
+  40% {
+    transform: translateX(-300%);
+  }
+  /* Gambar 5 (geser ke kiri, diam) */
+  42%,
+  52% {
+    transform: translateX(-400%);
+  }
+  /* Gambar 4 (geser ke kanan, diam) */
+  54%,
+  64% {
+    transform: translateX(-300%);
+  }
+  /* Gambar 3 (geser ke kanan, diam) */
+  66%,
+  76% {
+    transform: translateX(-200%);
+  }
+  /* Gambar 2 (geser ke kanan, diam) */
+  79%,
+  89% {
+    transform: translateX(-100%);
+  }
+  91%,
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.flex-item:hover {
+  filter: drop-shadow(10px 7px 7px #e53838);
+  transition: 0.5s;
+}
+
+/*==========================END======================*/
+
+/*START=======UNTUK TOP 10 POPULAR COMIC==========*/
+
+/*================START================*/
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.container .slide-top10 .item-top10 {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-radius: 20px;
+  box-shadow: 0 10px 50px #505050;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.slide-top10 .item-top10:nth-child(1),
+.slide-top10 .item-top10:nth-child(2) {
+  left: 1%;
+  border-radius: 5px;
+  width: 37%;
+  height: 100%;
+  box-shadow: 0 10px 20px #505050;
+}
+
+.slide-top10 .item-top10:nth-child(3) {
+  width: 18%;
+  height: 50%;
+  left: 35%;
+  top: 70%;
+}
+.slide-top10 .item-top10:nth-child(4) {
+  width: 18%;
+  height: 50%;
+  left: 55%;
+  top: 70%;
+}
+.slide-top10 .item-top10:nth-child(5) {
+  width: 18%;
+  height: 50%;
+  left: 75%;
+  top: 70%;
+}
+
+/* here n = 0, 1, 2, 3,... */
+.slide-top10 .item-top10:nth-child(n + 6) {
+  left: calc(70% + 660px);
+  top: 70%;
+}
+
+.content {
+  position: relative;
+  top: 30%;
+  padding: 2%;
+  left: 2%;
+  width: 72%;
+  text-align: left;
+  color: #eee;
+  font-family: system-ui;
+  display: none;
+}
+
+.slide-top10 .item-top10:nth-child(2) .content {
+  display: block;
+}
+
+.name {
+  font-size: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0;
+  animation: animate 1s ease-in-out 1 forwards;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.des {
+  font-size: 60%;
+  margin-bottom: 1%;
+  opacity: 0;
+  animation: animate 1s ease-in-out 0.3s 1 forwards;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  padding: 5%;
+}
+
+.content button {
+  padding: 2% 5% 2% 5%;
+  cursor: pointer;
+  animation: animate 1s ease-in-out 0.6s 1 forwards;
+  transition: 0.4s;
+  font-weight: bold;
+  border: 1px solid rgba(40, 39, 39, 0.748);
+  background-color: #b9b3b3db;
+  font-size: 90%;
+  border-bottom-right-radius: 10px;
+}
+
+.content button:hover {
+  background: #fc5185;
+  color: white;
+}
+
+@keyframes animate {
+  from {
+    opacity: 0;
+    transform: translate(0, 100px);
+    filter: blur(33px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0);
+    filter: blur(0);
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    height: 300px;
+  }
+  .slide-top10 .item-top10:nth-child(1),
+  .slide-top10 .item-top10:nth-child(2) {
+    left: 1%;
+    border-radius: 5px;
+    width: 60%;
+    height: 100%;
+    box-shadow: 0 10px 20px #505050;
+  }
+  .slide-top10 .item-top10:nth-child(3) {
+    width: 18%;
+    height: 50%;
+    left: 55%;
+    top: 70%;
+    border-radius: 7px;
+  }
+  .slide-top10 .item-top10:nth-child(4) {
+    width: 18%;
+    height: 50%;
+    left: 75%;
+    top: 70%;
+    border-radius: 7px;
+  }
+  .slide-top10 .item-top10:nth-child(5) {
+    width: 18%;
+    height: 50%;
+    left: 95%;
+    top: 70%;
+    border-radius: 7px;
+  }
+  .content {
+    top: 10%;
+  }
+  .name {
+    font-size: 70%;
+  }
+  .des {
+    font-size: 40%;
+  }
+  .content button {
+    font-size: 50%;
+    border-bottom-right-radius: 7px;
+  }
+  .button-top10 {
+    display: flex;
+    bottom: 5% !important;
+    left: 3% !important;
+  }
+  .button-top10 button {
+    width: 70% !important;
+    height: 20px !important;
+    font-size: 10px;
+    margin-top: 0%;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+  }
+  .container .popular {
+    top: 27%;
+    left: 63%;
+  }
+  .container .popular .title1-top10 {
+    font-size: 100%;
+  }
+  .container .popular .title2-top10 {
+    font-size: 80%;
+  }
+  .latest h2 {
+    font-size: 80% !important;
+  }
+  #load-more {
+    font-size: 10px !important;
+  }
+}
+
+.button-top10 {
+  width: 20%;
+  left: 2%;
+  position: absolute;
+  bottom: 1%;
+}
+
+.button-top10 button {
+  width: 40%;
+  height: 35px;
+  border-bottom-right-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 4%;
+  border: 1px solid #ffffffa8;
+  background-color: #b9b3b3db;
+  transition: 0.4s;
+  font-weight: bold;
+}
+
+.button-top10 button:hover {
+  transition: 0.4s;
+  background: #3c3c3c;
+  color: white;
+}
+
+.garis {
+  border-top: 1px solid #85828259;
+}
+
+.see-more {
+  text-decoration: none !important;
+  color: black;
+}
+
+.see-more:hover {
+  color: white;
+}
+/*==========================END===================================*/
+
+/*START=======UNTUK LOAD MORE DI BAWA =======*/
+
+/*<div class="update-comic">
+<div class="garis1"></div>
+<div class="Latest Updates"></div>
+<div class="garis2"></div>
+</div>*/
+.update-comic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.garis1,
+.garis2 {
+  border-top: 1px solid #85828259;
+  width: 40%;
+}
+
+.latest h2 {
+  position: relative;
+  font-size: 150%;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  gap: 15px;
+  padding: 2%;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #85828259;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #000000;
+  cursor: default;
+}
+
+/* Styling for Grid Items */
+.item {
+  border: 1px solid #000;
+  object-fit: cover;
+  border-radius: 2%;
+}
+
+.item img {
+  width: 100%; /* Gambar akan memenuhi lebar item */
+  height: 100%; /* Gambar akan memenuhi tinggi item */
+  object-fit: cover; /* Memastikan gambar tetap proporsional dan tidak terdistorsi */
+  border-radius: 2%; /* Opsional: sudut gambar membulat */
+}
+
+@media (min-width: 850px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .card {
+    height: 270px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 849px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .info p {
+    display: none;
+  }
+  .btn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .card {
+    height: 330px;
+  }
+}
+
+@media (max-width: 450px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .info p {
+    display: none;
+  }
+  .btn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .card {
+    height: 170px;
+  }
+  .title-upcoming {
+    width: 100%;
+    height: 30%;
+    background-color: rgba(131, 36, 220, 0);
+    font-size: 5px !important;
+  }
+  .find-comic {
+    width: 60% !important;
+    height: 100% !important;
+  }
+  .container-upcoming {
+    height: 200px !important;
+  }
+  .grid-upcoming {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-color: 1px solid rgb(237, 235, 235);
+    background-color: rgba(239, 24, 24, 0);
+    margin-bottom: 2%;
+  }
+  .upcoming-item {
+    border: 1px solid #f3fcf460;
+    border-radius: 2%;
+    display: none !important;
+  }
+  .see-all-upcoming {
+    margin-top: 35% !important;
+  }
+  .find-comic-area {
+    position: a;
+    width: 75%;
+    height: 15% !important;
+    margin-left: 50%;
+    margin-top: 47% !important;
+    transform: translate(-50%, -27%);
+    border-radius: 20px;
+    transition: 1s;
+    cursor: pointer;
+    background-color: rgba(98, 99, 98, 0.868);
+    animation: area-find-comic 10s infinite;
+  }
+  .find-comic-area h1 a {
+    text-decoration: none !important;
+    color: black;
+    animation: text-find-comic 10s infinite;
+    font-weight: bold;
+    font-size: 40% !important;
+    position: absolute;
+    text-align: start;
+    width: 100%;
+    left: 5.5%;
+  }
+  #view-all {
+    font-size: 10px !important;
+  }
+  .lain-lain h2 {
+    font-size: 10px !important;
+    width: 100% !important;
+  }
+  .container-contact {
+    position: relative;
+    width: 40% !important;
+    height: 30px !important;
+    background-color: #9b919163;
+    margin-left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: start !important;
+    border-radius: 30px;
+    margin-top: 2%;
+  }
+  .footer-bg {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 25% !important;
+    filter: brightness(0.2);
+    z-index: -2;
+  }
+}
+
+/* Menyembunyikan semua elemen kecuali 4 pertama */
+.grid-container .item {
+  display: none;
+}
+
+.grid-container .item:nth-child(-n + 12) {
+  display: block;
+}
+
+#load-more {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  width: 15%;
+  padding: 1%;
+  background-color: #4f4f4f;
+  color: white;
+  font-weight: bold;
+  transition: 1s;
+  border: 1px solid white;
+}
+
+#load-more:hover {
+  background-color: #fc5185;
+  transition: 0.5s;
+  width: 20%;
+}
+
+/*================END====================*/
+
+/*====START=====DETAIL SAAT COMIC DI HOVER============*/
+
+.card {
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0);
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(17, 17, 17, 0.3), rgb(4, 18, 35));
+  z-index: 2;
+  opacity: 0;
+  transition: 0.5s all;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.info {
+  position: relative;
+  color: #fff;
+  z-index: 3;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all;
+  padding: 5%;
+}
+
+.card:hover .info {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.info h1 {
+  font-size: 90%;
+  text-align: center;
+}
+
+.info p {
+  font-size: 50%;
+  text-align: justify;
+}
+
+.btn {
+  background: #fff;
+  padding: 2% 5% 2% 5%;
+  color: #000;
+  font-size: 70%;
+  cursor: pointer;
+  border-radius: 2px;
+  text-decoration: none !important;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+.btn:hover {
+  background: #fc5185;
+  color: #fff;
+}
+
+.popular {
+  color: rgb(255, 255, 255);
+  left: 40%;
+  width: 40%;
+  text-align: start;
+  position: absolute;
+  top: 25%;
+}
+
+.title1-top10 {
+  font-size: 300%;
+}
+
+.title-top10 {
+  font-size: 200%;
+}
+/*=========================END=======================================*/
+
+/*===========START===================upcoming=========*/
+
+.container-upcoming {
+  position: relative;
+  background-color: rgba(113, 112, 112, 0.226);
+  width: 90%;
+  padding: 1%;
+  height: 350px;
+  margin-top: 0%;
+  display: flex; /* Mengatur anak-anak elemen dalam satu baris */
+  gap: 1%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.find-comic {
+  width: 50%;
+  height: 100%;
+  background-image: url(../image/21.avif);
+  transition: ease-in-out;
+  animation: transisi-find 10s infinite;
+  background-size: cover;
+}
+
+@keyframes transisi-find {
+  20% {
+    background-image: url(../image/42.avif);
+  }
+  40% {
+    background-image: url(../image/31.avif);
+  }
+  60% {
+    background-image: url(../image/24.avif);
+  }
+  80% {
+    background-image: url(../image/21.avif);
+  }
+  100% {
+    background-image: url(../image/27.avif);
+  }
+}
+
+.upcoming {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(245, 245, 220, 0);
+}
+
+.title-upcoming {
+  width: 100%;
+  height: 30%;
+  background-color: rgba(131, 36, 220, 0);
+}
+
+.title-uc {
+  text-align: center;
+  padding: 10px;
+  font-size: 300%;
+  color: white;
+}
+
+.find-comic-area {
+  width: 55%;
+  height: 20%;
+  margin-left: 50%;
+  margin-top: 27%;
+  transform: translate(-50%, -27%);
+  border-radius: 20px;
+  transition: 1s;
+  cursor: pointer;
+  background-color: rgba(98, 99, 98, 0.868);
+  animation: area-find-comic 10s infinite;
+}
+
+.find-comic-area h1 a {
+  text-decoration: none !important;
+  color: black;
+  animation: text-find-comic 10s infinite;
+  font-weight: bold;
+}
+
+@keyframes area-find-comic {
+  0% {
+    background-color: rgba(23, 25, 24, 0.868);
+  }
+  20% {
+    background-color: rgba(98, 99, 98, 0.868);
+  }
+  40% {
+    background-color: rgba(23, 25, 24, 0.868);
+  }
+  60% {
+    background-color: rgba(98, 99, 98, 0.868);
+  }
+  80% {
+    background-color: rgba(23, 25, 24, 0.868);
+  }
+  100% {
+    background-color: rgba(98, 99, 98, 0.868);
+  }
+}
+
+@keyframes text-find-comic {
+  0% {
+    color: white;
+  }
+  20% {
+    color: black;
+  }
+  40% {
+    color: white;
+  }
+  60% {
+    color: black;
+  }
+  80% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.find-comic-area:hover {
+  animation-play-state: paused;
+  width: 60%;
+  transition: 0.5s;
+  background-color: #e53838 !important;
+}
+
+.find-comic-area h1 {
+  color: black;
+  text-align: center;
+  font-size: 135%;
+  padding: 6%;
+  animation: text-find-comic 10s infinite;
+  font-weight: bold;
+}
+
+.find-comic-area h1:hover,
+.find-comic-area h1 :hover {
+  animation-play-state: paused;
+  color: white !important;
+  font-weight: bold;
+}
+
+.comic-upcoming {
+  background-color: rgba(255, 255, 255, 0.038);
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+
+.grid-upcoming {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr;
+  border-color: 1px solid rgb(237, 235, 235);
+  background-color: rgba(239, 24, 24, 0);
+  margin-bottom: 2%;
+  gap: 1%;
+}
+
+.upcoming-item {
+  border: 1px solid #f3fcf460;
+  border-radius: 2%;
+}
+
+.upcoming-item p {
+  color: rgb(222, 220, 220);
+  padding: 10%;
+  font-size: 50%;
+  font-weight: bold;
+  padding-bottom: 0%;
+  padding-top: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.upcoming-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.see-all-upcoming {
+  width: 30%;
+  background-color: #4f4f4f;
+  margin-left: 50%;
+  transform: translate(-50%);
+  border-radius: 10px;
+  transition: 2s;
+}
+
+.see-all-upcoming:hover {
+  transition: 0.5s;
+  background-color: #fc5185;
+  width: 40%;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.see-all-upcoming h2 {
+  text-align: center;
+  font-size: 90%;
+  padding: 2%;
+  font-weight: bold;
+  color: white;
+  text-decoration: none !important;
+}
+
+/*==========================================================================*/
+
+footer {
+  border-top: 1px solid #85828259;
+}
+
+.footer-bg {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  filter: brightness(0.2);
+  z-index: -2;
+}
+
+.footer-logo img {
+  position: relative;
+  width: 15%;
+  margin-left: 50%;
+  margin-top: 2%;
+  transform: translate(-50%);
+}
+
+.footer-logo img:hover {
+  filter: drop-shadow(7px 7px 10px #fc5185);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.container-contact {
+  position: relative;
+  width: 30%;
+  height: 65px;
+  background-color: #9b919163;
+  margin-left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+  margin-top: 2%;
+}
+
+.container-contact img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.container-contact img:hover {
+  cursor: pointer;
+}
+
+.fb {
+  position: relative;
+  width: 10%;
+  height: 50%;
+  background-color: #38e58f00;
+}
+
+.ig {
+  position: relative;
+  width: 10%;
+  height: 50%;
+  background-color: #3b38e500;
+}
+
+.twitter {
+  position: relative;
+  width: 10%;
+  height: 50%;
+  background-color: #e538d900;
+}
+
+.telegram {
+  position: relative;
+  width: 10%;
+  height: 50%;
+  background-color: #c8e10900;
+}
+
+.line {
+  position: relative;
+  width: 10%;
+  height: 50%;
+  background-color: #c8e10900;
+}
+
+.fb:hover {
+  filter: drop-shadow(7px 7px 10px #2b31e3);
+  transition: 0.5s;
+}
+.line:hover {
+  filter: drop-shadow(7px 7px 10px #0ce350);
+  transition: 0.5s;
+}
+.ig:hover {
+  filter: drop-shadow(7px 7px 10px #e33a86);
+  transition: 0.5s;
+}
+.twitter:hover {
+  filter: drop-shadow(7px 7px 10px #000000);
+  transition: 0.5s;
+}
+.telegram:hover {
+  filter: drop-shadow(7px 7px 10px #2c8ef6);
+  transition: 0.5s;
+}
+
+.lain-lain {
+  position: relative;
+  display: flex;
+  width: 50%;
+  margin-top: 2%;
+  margin-left: 50%;
+  transform: translate(-50%);
+  background-color: rgba(236, 13, 13, 0);
+  justify-content: center;
+  gap: 2%;
+  align-items: center;
+}
+
+.lain-lain h2 {
+  color: white;
+  font-size: 100%;
+}
+
+.lain-lain h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.lain-lain h3 {
+  color: rgba(128, 128, 128, 0.463);
+}
+
+#view-all {
+  display: none;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  width: 15%;
+  padding: 1%;
+  background-color: #4f4f4f;
+  color: white;
+  font-weight: bold;
+  transition: 1s;
+  border: 1px solid white;
+  text-decoration: none !important;
+  text-align: center;
+}
+
+#view-all:hover {
+  background-color: #fc5185;
+  transition: 0.5s;
+  width: 20%;
+}

@@ -1,0 +1,501 @@
+html,
+body {
+  background-color: black !important;
+  color: white !important;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/*NAVBAR*/
+.navbar {
+  background-color: rgb(22, 22, 22);
+  border-bottom: 1px solid rgb(56, 56, 56);
+}
+
+.nav-item {
+  margin-left: 10%;
+}
+
+.nav-text:hover {
+  color: #fc5185 !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fc5185 !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item img {
+  filter: drop-shadow(7px 7px 2px #fc5185);
+}
+
+.nav-item img:hover {
+  filter: drop-shadow(7px 7px 2px #fc5185);
+  transition: 0.5s;
+}
+
+.nav-text {
+  color: white !important;
+}
+
+.dropdown-menu {
+  background-color: rgb(30, 30, 30) !important;
+}
+
+.form-control {
+  width: 100%;
+  height: 30px;
+  margin-top: 6px;
+}
+
+.d-flex {
+  width: 100%;
+  padding: 1.2%;
+}
+
+.btn-search {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid white;
+  height: 30px;
+  margin-top: 6px;
+  align-items: center;
+  padding: 0px;
+}
+
+.search-text {
+  padding: 2px 7px 2px 7px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.navbar-toggler {
+  border-color: none;
+}
+.navbar-nav {
+  gap: 10%;
+  align-items: end;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/*SLIDING NAVIGATION MENU*/
+
+.slider-menu {
+  background-color: black; /* Mengatur latar belakang menjadi hitam */
+  padding: 10px 0;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.menu-container {
+  display: inline-flex;
+  padding: 0 10px;
+  background-color: rgba(0, 0, 0, 0.399);
+  border-radius: 10px;
+}
+
+.menu-item {
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.3s;
+  background-color: black;
+}
+
+.menu-item:hover {
+  background-color: #555;
+}
+
+.content-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.content-section {
+  display: none;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.content-section.active {
+  display: block;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.item h3 {
+  margin: 0 0 5px;
+  color: #ffa726;
+}
+
+.item p {
+  margin: 0;
+  color: #c7c7c7;
+}
+
+/* Hide scroll bar for slider menu */
+.slider-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-menu {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* Menu Genre */
+.slider-menu {
+  overflow-x: auto;
+  white-space: nowrap;
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.menu-container {
+  display: inline-flex;
+  padding: 0 10px;
+}
+
+.menu-item {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #777;
+}
+
+/* Konten Gambar dan Teks */
+.content-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+  grid-template-rows: repeat(3, 1fr); /* 3 baris */
+  gap: 20px;
+  padding: 20px;
+}
+
+.content-item {
+  display: flex;
+  align-items: center;
+  background-color: #222;
+  border-radius: 10px;
+  padding: 15px;
+  color: #fff;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.content-item img {
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.desc h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.desc p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.see-more {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.see-more:hover {
+  background-color: #666;
+}
+
+/* Hover Effect for Content Item */
+.content-item:hover {
+  transform: scale(1.05);
+}
+
+/* Make Sure Grid Items are Responsive */
+@media (max-width: 768px) {
+  .content-container {
+    grid-template-columns: repeat(1, 1fr); /* 1 kolom pada layar kecil */
+  }
+}
+
+/*GENRE BUTTON*/
+/* Section baru untuk logo genre */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white !important;
+  text-align: center;
+  padding-top: 20px;
+}
+.genre-section {
+  background-color: black;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.genre-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.genre-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.genre-item:hover {
+  transform: scale(1.1); /* Efek hover memperbesar item */
+}
+
+.genre-logo {
+  background-color: #333;
+  border-radius: 50%; /* Membuat gambar berbentuk bulat */
+  padding: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.genre-logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%; /* Memastikan gambar tetap bulat */
+}
+
+.genre-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  .genre-container {
+    flex-direction: column; /* Menyusun item secara vertikal di layar kecil */
+  }
+}
+.grid-container {
+  display: grid;
+  gap: 15px;
+  padding: 2%;
+  background-color: #f4f4f4;
+  border-top: 1px solid #85828259;
+  border-bottom: 1px solid #85828259;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #000000;
+}
+
+/* Styling for Grid Items */
+.item {
+  border: 1px solid #000;
+  object-fit: cover;
+  border-radius: 2%;
+}
+
+.item img {
+  width: 100%; /* Gambar akan memenuhi lebar item */
+  height: 100%; /* Gambar akan memenuhi tinggi item */
+  object-fit: cover; /* Memastikan gambar tetap proporsional dan tidak terdistorsi */
+  border-radius: 2%; /* Opsional: sudut gambar membulat */
+}
+
+@media (min-width: 850px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .card {
+    height: 270px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 849px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .info p {
+    display: none;
+  }
+  .btn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .card {
+    height: 330px;
+  }
+}
+
+@media (max-width: 450px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .info p {
+    display: none;
+  }
+  .btn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .card {
+    height: 170px;
+  }
+}
+
+/* Menyembunyikan semua elemen kecuali 4 pertama */
+.grid-container .item {
+  display: none;
+}
+
+.grid-container .item:nth-child(-n + 12) {
+  display: block;
+}
+
+#load-more {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  width: 15%;
+  padding: 1%;
+  background-color: #4f4f4f;
+  color: white;
+  font-weight: bold;
+  transition: 1s;
+  border: 1px solid white;
+}
+
+#load-more:hover {
+  background-color: grey;
+  transition: 1s;
+  width: 20%;
+}
+
+/*================END====================*/
+
+/*====START=====DETAIL SAAT COMIC DI HOVER============*/
+
+.card {
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0);
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(17, 17, 17, 0.3), rgb(4, 18, 35));
+  z-index: 2;
+  opacity: 0;
+  transition: 0.5s all;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.info {
+  position: relative;
+  color: #fff;
+  z-index: 3;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all;
+  padding: 5%;
+}
+
+.card:hover .info {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.info h1 {
+  font-size: 90%;
+  text-align: center;
+}
+
+.info p {
+  font-size: 50%;
+  text-align: justify;
+}
+
+.btn {
+  background: #fff;
+  padding: 2% 5% 2% 5%;
+  color: #000;
+  font-size: 70%;
+  cursor: pointer;
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+.btn:hover {
+  background: #fc5185;
+  color: #fff;
+}

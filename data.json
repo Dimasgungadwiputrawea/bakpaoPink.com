@@ -1,0 +1,281 @@
+{
+  "murim": [
+    {
+      "title": "Return of Mount Hua Sect",
+      "img": "asset/image/11.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["murim", "overpowered", "revenge", "daily-life", "world-of-fighting"]
+    },
+    {
+      "title": "Legend of Northern Blade",
+      "img": "asset/image/10.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["murim", "pure-development", "overpowered", "revenge", "world-of-fighting"]
+    },
+    {
+      "title": "Legend of Heavenly Chaos Demon",
+      "img": "asset/image/12.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["murim", "pure-development", "revenge", "world-of-surviving"]
+    },
+    {
+      "title": "The Heavenly Demon Can’t Live a Normal Life",
+      "img": "asset/image/13.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["murim", "overpowered", "daily-life"]
+    },
+    {
+      "title": "The Return of The Crazy Demon",
+      "img": "asset/image/14.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["murim", "overpowered", "daily-life"]
+    },
+    {
+      "title": "Chronicles of The Martial God’s Return",
+      "img": "asset/image/15.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["murim", "overpowered", "peace", "daily-life"]
+    },
+    {
+      "title": "Nano Machine",
+      "img": "asset/image/16.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["murim", "overpowered", "revenge", "world-of-fighting"]
+    },
+    {
+      "title": "Ranker’s Return (Remake)",
+      "img": "asset/image/17.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["murim", "overpowered", "peace", "world-of-game"]
+    }
+  ],
+  "today": [
+    {
+      "title": "The Martial God Who Regressed to Level 2",
+      "img": "asset/image/18.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["today", "overpowered", "revenge", "world-of-game", "world-of-surviving"]
+    },
+    {
+      "title": "The Tutorial Tower of The Advanced Player",
+      "img": "asset/image/19.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["today", "overpowered", "peace", "world-of-fighting"]
+    },
+    {
+      "title": "The Knight King Who Return With a God",
+      "img": "asset/image/20.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["today", "overpowered", "peace", "world-of-fighting"]
+    },
+    {
+      "title": "Worn And Torn Newbie",
+      "img": "asset/image/21.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["today", "overpowered", "peace", "world-of-surviving"]
+    },
+    {
+      "title": "Return of Frozen Player",
+      "img": "asset/image/22.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["today", "pure-development", "peace", "world-of-fighting"]
+    },
+    {
+      "title": "Solo Max Level Newbie",
+      "img": "asset/image/23.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["today", "pure-development", "overpowered", "peace", "world-of-game", "world-of-surviving", "world-of-fighting"]
+    },
+    {
+      "title": "The Return of The Disaster Class Hero",
+      "img": "asset/image/24.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["today", "overpowered", "revenge", "world-of-fighting"]
+    },
+    {
+      "title": "Eleceed",
+      "img": "asset/image/25.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["today", "pure-development", "peace", "world-of-fighting"]
+    },
+    {
+      "title": "Omniscient Reader’s Viewpoint",
+      "img": "asset/image/26.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["today", "pure-development", "peace", "world-of-surviving"]
+    },
+    {
+      "title": "Bones",
+      "img": "asset/image/27.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["today", "depressed", "overpowered", "revenge", "world-of-fighting", "world-of-surviving"]
+    },
+    {
+      "title": "How to Fight",
+      "img": "asset/image/28.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["today", "pure-development", "revenge", "peace", "world-of-fighting"]
+    },
+    {
+      "title": "Sakamoto Days",
+      "img": "asset/image/29.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["today", "overpowered", "peace", "daily-life", "comedy"]
+    },
+    {
+      "title": "Killer Peter",
+      "img": "asset/image/30.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["today", "overpowered", "revenge", "world-of-fighting", "comedy"]
+    },
+    {
+      "title": "Solo Leveling",
+      "img": "asset/image/31.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["today", "pure-development", "revenge", "peace", "world-of-fighting"]
+    },
+    {
+      "title": "Wind Breaker",
+      "img": "asset/image/32.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["today", "pure-development", "sports", "comedy"]
+    }
+  ],
+  "high-fantasy": [
+    {
+      "title": "The Regressed Son of a Duke Is An Assassin",
+      "img": "asset/image/33.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["high-fantasy", "pure-development", "revenge", "world-of-fighting"]
+    },
+    {
+      "title": "Revenge of The Iron Blooded Sword Hound",
+      "img": "asset/image/34.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["high-fantasy", "pure-development", "overpowered", "revenge", "world-of-fighting"]
+    },
+    {
+      "title": "Swordmaster’s Youngest Son",
+      "img": "asset/image/35.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["high-fantasy", "pure-development", "revenge", "world-of-fighting"]
+    },
+    {
+      "title": "The Greatest Estate Developer",
+      "img": "asset/image/36.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["high-fantasy", "pure-development", "peace", "world-of-surviving"]
+    },
+    {
+      "title": "Star Embracing Swordmaster",
+      "img": "asset/image/37.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["high-fantasy", "pure-development", "revenge", "world-of-fighting"]
+    },
+    {
+      "title": "Leveling With God",
+      "img": "asset/image/38.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["high-fantasy", "overpowered", "revenge", "world-of-fighting"]
+    },
+    {
+      "title": "Reincarnation of Suicidal Battle God",
+      "img": "asset/image/39.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["high-fantasy", "pure-development", "overpowered", "revenge", "world-of-fighting"]
+    },
+    {
+      "title": "The Indomitable Martial King",
+      "img": "asset/image/40.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["high-fantasy", "overpowered", "peace", "world-of-fighting"]
+    },
+    {
+      "title": "Pick Me Up",
+      "img": "asset/image/41.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["high-fantasy", "pure-development", "overpowered", "revenge", "world-of-game"]
+    },
+    {
+      "title": "The Live",
+      "img": "asset/image/42.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["high-fantasy", "pure-development", "revenge", "world-of-game"]
+    },
+    {
+      "title": "The Great Mage Returns After 4000 Years",
+      "img": "asset/image/43.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["high-fantasy", "overpowered", "revenge", "world-of-fighting"]
+    },
+    {
+      "title": "Overgeared",
+      "img": "asset/image/33.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["high-fantasy", "pure-development", "overpowered", "peace", "daily-life", "world-of-game"]
+    }
+  ],
+
+  "academy": [
+    {
+      "title": "True Education",
+      "img": "asset/image/45.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["academy", "overpowered", "peace", "world-of-fighting"]
+    },
+    {
+      "title": "Juvenile Prison",
+      "img": "asset/image/46.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["academy", "pure-development", "revenge", "world-of-fighting"]
+    },
+    {
+      "title": "Mercenary Enrollment",
+      "img": "asset/image/47.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["academy", "overpowered", "peace", "world-of-fighting"]
+    },
+    {
+      "title": "Academy’s Genius Swordmaster",
+      "img": "asset/image/48.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["academy", "overpowered", "revenge", "world-of-fighting"]
+    },
+    {
+      "title": "Study Group",
+      "img": "asset/image/49.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["academy", "overpowered", "peace", "world-of-fighting"]
+    },
+    {
+      "title": "Devil Returns To School Days",
+      "img": "asset/image/50.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["academy", "pure-development", "revenge", "world-of-fighting"]
+    },
+    {
+      "title": "Infinite Mage",
+      "img": "asset/image/4.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["academy", "pure-development", "peace", "world-of-fighting"]
+    },
+    {
+      "title": "The Bully In Charge",
+      "img": "asset/image/7.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["academy", "overpowered", "peace", "world-of-fighting"]
+    },
+    {
+      "title": "Boss In School",
+      "img": "asset/image/11.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["academy", "pure-development", "revenge", "world-of-fighting"]
+    },
+    {
+      "title": "Mashle: Magic & Muscle",
+      "img": "asset/image/12.AVIF",
+      "desc": "For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box.",
+      "tags": ["academy", "overpowered", "peace", "world-of-fighting"]
+    }
+  ]
+}

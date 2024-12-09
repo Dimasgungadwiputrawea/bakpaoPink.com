@@ -1,0 +1,229 @@
+* button {
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.navbar {
+  background-color: rgb(22, 22, 22);
+  border-bottom: 1px solid rgb(56, 56, 56);
+}
+
+.nav-item {
+  margin-left: 10%;
+}
+
+.nav-item img {
+  animation: hompage 10s infinite;
+}
+
+@keyframes hompage {
+  0% {
+    scale: 1.35;
+    filter: drop-shadow(7px 7px 2px #fc5185);
+  }
+  25% {
+    scale: 1.1;
+  }
+  50% {
+    scale: 1.35;
+  }
+  75% {
+    scale: 1.1;
+  }
+  100% {
+    scale: 1.35;
+  }
+}
+.nav-item img:hover {
+  filter: drop-shadow(7px 7px 2px #fc5185);
+  transition: 0.5s;
+}
+
+.nav-text {
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: rgb(30, 30, 30);
+}
+
+.form-control {
+  width: 100%;
+  height: 30px;
+  margin-top: 6px;
+}
+
+.d-flex {
+  width: 100%;
+  padding: 1.2%;
+}
+
+.btn-search {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid white;
+  height: 30px;
+  margin-top: 6px;
+  align-items: center;
+  padding: 0px;
+}
+
+.search-text {
+  padding: 2px 7px 2px 7px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.navbar-toggler {
+  border-color: none;
+}
+.navbar-nav {
+  gap: 10%;
+  align-items: end;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-text:hover {
+  color: #fc5185;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fc5185 !important;
+  transition: color 0.3s ease-in-out;
+}
+
+/*====================================================*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black !important;
+  color: white;
+}
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+/* Card Section Styles */
+
+@media (max-width: 450px) {
+  .card button {
+    font-size: 12px !important;
+    width: 70% !important;
+  }
+  .upcoming .schedule-item {
+    text-align: start !important;
+  }
+  .schedule-item .date,
+  .title,
+  .author {
+    font-size: 12px !important;
+  }
+  .upcoming h2 {
+    font-size: 20px !important;
+  }
+  * p {
+    font-size: 10px !important;
+  }
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 20px;
+}
+.card {
+  background-color: black !important;
+  border: 1px solid black !important;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+.card img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.card-details {
+  flex-grow: 1;
+}
+.card-details h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+.card-details p {
+  font-size: 14px;
+  color: white !important;
+  margin: 0 0 10px;
+  text-align: center;
+}
+.card-details button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fc5185;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.card-details button:hover {
+  background-color: #7a7a7a;
+}
+
+.upcoming {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 8px;
+}
+.upcoming h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+.schedule-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.schedule-item .date {
+  font-weight: bold;
+  font-size: 18px;
+  color: #fc5185;
+}
+.schedule-item .title {
+  flex-grow: 1;
+  margin-left: 20px;
+  font-size: 16px;
+  color: white;
+}
+.schedule-item .author {
+  font-size: 14px;
+  color: white;
+}
+
+.see-all-upcoming {
+  text-decoration: none;
+}

@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.navbar {
+  background-color: rgb(22, 22, 22);
+  border-bottom: 1px solid rgb(56, 56, 56);
+}
+
+.nav-item {
+  margin-left: 10%;
+}
+
+.nav-item img {
+  animation: hompage 10s infinite;
+}
+
+@keyframes hompage {
+  0% {
+    scale: 1.35;
+    filter: drop-shadow(7px 7px 2px #fc5185);
+  }
+  25% {
+    scale: 1.1;
+  }
+  50% {
+    scale: 1.35;
+  }
+  75% {
+    scale: 1.1;
+  }
+  100% {
+    scale: 1.35;
+  }
+}
+.nav-item img:hover {
+  filter: drop-shadow(7px 7px 2px #fc5185);
+  transition: 0.5s;
+}
+
+.nav-text {
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: rgb(30, 30, 30);
+}
+
+.form-control {
+  width: 100%;
+  height: 30px;
+  margin-top: 6px;
+}
+
+.d-flex {
+  width: 100%;
+  padding: 1.2%;
+}
+
+.btn-search {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid white;
+  height: 30px;
+  margin-top: 6px;
+  align-items: center;
+  padding: 0px;
+}
+
+.search-text {
+  padding: 2px 7px 2px 7px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.navbar-toggler {
+  border-color: none;
+}
+.navbar-nav {
+  gap: 10%;
+  align-items: end;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-text:hover {
+  color: #fc5185;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fc5185 !important;
+  transition: color 0.3s ease-in-out;
+}
+
+/*=========================================*/
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+h3 {
+  color: white;
+}
+.question {
+  margin-bottom: 20px;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #ffffff;
+}
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: rgb(41, 50, 73);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.result {
+  display: none;
+  background-color: rgb(41, 50, 73);
+  padding: 15px;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+.grid-container {
+  display: grid;
+  gap: 15px;
+  padding: 2%;
+  background-color: rgb(41, 50, 73); /* Background black */
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Three columns */
+}
+
+/* Styling for Grid Items */
+.item {
+  border: 1px solid #000;
+  border-radius: 2%;
+  overflow: hidden;
+  height: 250px; /* Adjust height as per your design */
+}
+
+.item img {
+  width: 100%; /* Gambar akan memenuhi lebar item */
+  height: 100%; /* Gambar akan memenuhi tinggi item */
+  object-fit: cover; /* Memastikan gambar tetap proporsional dan tidak terdistorsi */
+  border-radius: 2%; /* Opsional: sudut gambar membulat */
+}
+
+.card {
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(17, 17, 17, 0.3), rgb(4, 18, 35));
+  z-index: 2;
+  opacity: 0;
+  transition: 0.5s all;
+}
+.card:hover::before {
+  opacity: 1;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.info {
+  position: absolute; /* Fully overlay the parent */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex; /* Center content */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  z-index: 3;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all;
+  padding: 5%;
+  text-align: center; /* Align text */
+}
+
+.card:hover .info {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.info h1 {
+  font-size: 90%;
+  text-align: center;
+}
+
+.info p {
+  font-size: 12px;
+  margin: 0 0 10px 0;
+  text-align: justify;
+}
+
+.btn {
+  background: #fff;
+  padding: 5% 0% 5% 0%;
+  color: #000;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+.btn:hover {
+  background: #fc5185;
+  color: #fff;
+}
